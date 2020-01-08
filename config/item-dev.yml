@@ -1,6 +1,9 @@
 spring:
   application:
     name: item-server
+  cloud:
+    config:
+      override-none: true
 server:
   port: 8001
 
@@ -20,3 +23,4 @@ item-service:
     MaxAutoRetriesNextServer: 2
     ConnectTimeout: 1000
     ReadTimeout: 500
+  

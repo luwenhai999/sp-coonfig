@@ -4,7 +4,9 @@ server:
 spring:
   application:
     name: zuul
-
+  cloud:
+    config:
+      override-none: true
 eureka:
   client:
     service-url:

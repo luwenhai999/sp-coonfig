@@ -1,6 +1,6 @@
 sp:
   user-service:
-    users: "[{\"id\":7, \"username\":\"阿十几个辣椒干啦\",\"password\":\"lugang\"},{\"id\":8, \"username\":\"def\",\"password\":\"456\"},{\"id\":9, \"username\":\"ghi\",\"password\":\"789\"}]"
+    users: "[{\"id\":7, \"username\":\"老刚\",\"password\":\"lugang\"},{\"id\":8, \"username\":\"def\",\"password\":\"456\"},{\"id\":9, \"username\":\"ghi\",\"password\":\"789\"}]"
 
 spring:
   application:
@@ -20,4 +20,4 @@ management:
   endpoints:
     web:
       exposure:
-        include: bus-refresh
+        include: refresh
